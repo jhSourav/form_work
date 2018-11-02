@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+</head>
+<body>
+<!DOCTYPE html>
+<html>
+<body>
+
+<div class="container">
+    <h2>HTML Forms</h2>
+
+    <form  method="GET" action="#">
+  First name:<br>
+  <input type="text" name="firstname" placeholder="firstname">
+  <br>
+
+  <input type="submit" value="Submit">
+        <!--<h1>hello {{name}}</h1>-->
+
+</form>
+
+    {% if dis %}
+     {% for dis in dis %}
+        <p>{{dis.name}}</p>
+        <p>{{dis.area}}</p>
+        <p>{{dis.population}}</p>
+        <p>..............</p>
+     <!--//emppty tag use kora jay if er bodole-->
+        {% endfor %}
+    {% else %}
+    <p>no data</p>
+    {% endif %}
+</div>
+
+
+
+</body>
+</html>
+
+</body>
+</html>

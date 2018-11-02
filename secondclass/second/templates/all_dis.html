@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Total number of district: {{ all|length }}</h1>
+{% for all in all %}
+    <h3>{{all.name}}</h3>
+
+{% endfor %}
+
+</body>
+</html>
